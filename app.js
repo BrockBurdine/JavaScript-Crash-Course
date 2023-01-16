@@ -1,5 +1,7 @@
-const str = "Frontend Simplified"
-
-for (let i = 0; i < str.length; i++) {
-    console.log(str[i])
+const celciusToFahrenheit = (celcius) => {
+    return celcius * 1.8 + 32
 }
+
+console.log(celciusToFahrenheit(0));
+console.log(celciusToFahrenheit(10));
+console.log(celciusToFahrenheit(30));
