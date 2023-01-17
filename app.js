@@ -1,9 +1,11 @@
-let arr = [1, 4, 9 ,16]
+// turn dollars into cents without using map method. Another example of whats above//
 
-let newArray = arr.map((element) => {
-    console.log(element)
-    return undefined;
-})
+let dollars = [1, 5, 10, 3];
 
-console.log(newArray)
-//Turn each element into whatever you return
+let cents = [];
+
+for (let i = 0; i < dollars.length; ++i) {
+    cents.push(dollars[i] * 100);
+}
+
+console.log(cents);
