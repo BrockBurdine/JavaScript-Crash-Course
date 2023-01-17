@@ -33,8 +33,27 @@ function login(email, password) {
             else {
                 console.log('password is incorrect')
             }
+            return;
         }
     }
+    console.log('could not find an email that matches')
 }
 
 login('Brock@gmail.com', 'Test233');
+
+function register(user) {
+        users.push(user);
+}
+
+register({
+    username: 'BrOck', 
+    email:'brocksddds@gmail.com', 
+    password:'BPasword', 
+    subscriptionStatus: 'Vip', 
+    discordID: 'discord#000', 
+    lessonsCompleted: [0,1]});
+
+    //register new user//
+
+
+    console.log(users);
