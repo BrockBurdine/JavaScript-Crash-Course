@@ -1,6 +1,9 @@
-let grades = ['A+', 'A', 'FAIL']
+let arr = [1, 4, 9 ,16]
 
-let goodGrades = grades.filter((element) => element !== 'FAIL' 
-)
+let newArray = arr.map((element) => {
+    console.log(element)
+    return undefined;
+})
 
-console.log(goodGrades)
+console.log(newArray)
+//Turn each element into whatever you return
